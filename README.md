@@ -108,17 +108,31 @@ The system utilizes a stacked ensemble approach combining multiple classifiers:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This software is proprietary and protected under a custom license. See the [LICENSE](LICENSE) file for details.
+
+**Key License Terms:**
+- Copyright (c) 2025 Pranaav. All rights reserved.
+- Non-commercial use is permitted with proper attribution
+- Commercial use requires explicit written permission from the copyright holder
+- Modifications and redistributions are prohibited without permission
+- All uses must maintain copyright notices and attributions
+
+Required Attribution:
+```
+Created by Pranaav (2025). All rights reserved.
+```
+
+For licensing inquiries or permissions, please contact the copyright holder.
 
 ## 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome but must adhere to the license terms. Please open an issue first to discuss proposed changes.
 
 ## 📧 Contact
 
-For questions and feedback, please open an issue in the repository.
+For questions, feedback, or commercial licensing inquiries, please open an issue in the repository.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Sleep-EDF Database contributors
 - PhysioNet for providing sleep study datasets
