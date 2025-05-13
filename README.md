@@ -36,6 +36,24 @@ A comprehensive sleep apnea detection and analysis system that leverages multipl
 pip install -r requirements.txt
 ```
 
+### Model File Generation
+Before running the web dashboard, you need to generate the required model files:
+
+1. Navigate to the `Classify` directory:
+```bash
+cd Classify
+```
+
+2. Run the ensemble training notebook or Python script:
+   Using the notebook: `ensemble copy.ipynb`
+
+This will generate the following required `.pkl` files:
+- `StackingModel.pkl` (or `stacking_model.pkl`): The trained stacking ensemble model
+- `ScalerEnsemble.pkl` (or `scaler.pkl`): The fitted StandardScaler for feature normalization
+- `FeatureEnsemble.pkl` (or `feature_columns.pkl`): The list of feature columns
+
+These files are required for the Streamlit dashboard to function properly. Make sure they are generated before starting the web application.
+
 ### Directory Structure
 ```
 MultiModal/
